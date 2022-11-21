@@ -7,10 +7,10 @@ regray = ['🎲 \+(.+?) Base Roll', '[⚔✨🏹] [\+-]\d+ (.+?) XP', '📚 (.+?
 #order is dmg_base_reg, type_reg, dmg_type_reg, item_reg, dmg_item_reg, m_type_reg, m_element_reg, dmg_element_reg, crit_reg, sub_HP_reg, block_reg, new_p_reg, t_dmg_reg, gold_reg, exp_type_reg, exp_con_reg, rp_reg
 
 reddit = praw.Reddit(
-    client_id="NAREl1tpNRYSbGBGrfZJ_w",
-    client_secret="PdneWwNGiGwdPXG4plrKiwVSBIii_A",
+    client_id="replace",
+    client_secret="replace",
     user_agent="KOTD Scrapper",
-    username="coke_the_gal",
+    username="replace",
 )
 
 subreddit = reddit.subreddit('kickopenthedoor')
